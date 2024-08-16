@@ -223,3 +223,14 @@ When you push your commits, you’re essentially transferring the changes from y
 ## Example
 
 ![git](images/Git-push.png)
+
+## Git Pull
+
+When you run git pull, it updates your local branch with the latest commits from the corresponding branch in the remote repository. This is how you get the most up-to-date version of the code that others might have pushed to the repository.
+
+## Example
+**`Note`** I added a README file to my GitHub repository and committed it. Then, I noticed that the README file wasn't present in my local repository, so I pulled the code to receive the README file locally
+
+![git](images/Readme-file-pull.png)
+![git](images/Readme.png)
+![git](images/Git-pull.png)
