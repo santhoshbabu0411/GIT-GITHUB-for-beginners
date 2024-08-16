@@ -161,7 +161,7 @@ In Git, before you commit your changes, you need to add your files to the stagin
 git add <filename>
 git add index.html
 ```
-**`Why Use It?'**: This is useful when you only want to add certain files to the commit.
+**`Why Use It?`**: This is useful when you only want to add certain files to the commit.
 
 **Adding All Changed Files**
 Use this command to stage all the changed files in your directory:
@@ -234,3 +234,44 @@ When you run git pull, it updates your local branch with the latest commits from
 ![git](images/Readme-file-pull.png)
 ![git](images/Readme.png)
 ![git](images/Git-pull.png)
+
+## Branches
+
+A branch in Git is like a separate workspace within your project, where you can work on new features, bug fixes, or experiments without affecting the main code
+
+## Why Use Branches?
+**`Isolate Work`**: You can make changes on a branch without impacting the main project.
+
+**`Safe Experimentation`**: Try out new ideas on a branch without risking the stability of your main code.
+
+**`Team Collaboration`**: Multiple people can work on different branches simultaneously without conflicts.
+
+## Example
+
+![git](images/B1-Github.png)
+![git](images/Branch.png)
+![git](images/B2-Github.png)
+
+## Deleting a branch
+
+Deleting a branch in Git helps tidy up your repository after you’ve completed a feature or bug fix. Once a branch is merged into the main branch, it can be safely removed as it's no longer necessary.
+
+## Example
+
+![git](images/Deleting-Branch.png)
+
+
+## Merging Branches in Git
+
+Merging branches in Git combines the changes from one branch into another. It’s commonly used to bring the updates from a feature or bug fix branch into the main branch after the work is complete.
+
+## Example
+
+![git](images/Merge-dev-prev.png)
+![git](images/Merge-main-prev.png)
+![git](images/Git-Merge.png)
+![git](images/Merge-main-after.png)
+
+
+
+
