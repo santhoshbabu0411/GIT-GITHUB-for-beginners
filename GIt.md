@@ -1,7 +1,6 @@
 # GIT
 
 ## What is GIT?
-What is Git?
 
 Open source software which was created in 2005 by a set of Linux developers.
 It is the most popular and widely used, distributed version control system out there now wide distributed because it allows software developers across the world to work on a single project together.
@@ -190,6 +189,37 @@ git rm --cached index.js
 * Use git rm --cached `<file-name>` to unstage a file and stop tracking it in Git, but keep the file locally.
 
 
+## Commit
 
+**`Snapshot of Changes`**: A commit records the changes you’ve made to your files since the last commit. It’s like taking a picture of your project’s current state.
 
+**`Unique Identifier`**: Every commit has a unique ID, so you can easily refer back to it later.
 
+**`Commit Message`**: When you create a commit, you add a message describing what changes you made. This helps you remember what you did and why.
+
+**`Permanent Record`**: Commits are saved in your Git repository, meaning you can always look back at your project’s history.
+
+## Example:
+
+![git-init](images/commit.png)
+
+## Seeing changes in git
+
+![git-init](images/Seeing-changes-in-git.png)
+![git-init](images/changes-on-github.png)
+
+## Amending Commits
+
+Amending a commit in Git allows you to modify the most recent commit you’ve made. This is useful if you forgot to add some changes, want to correct your commit message, or need to update the commit content.
+
+## Example:
+
+![git](images/Amend.png)
+
+## Git Push
+
+When you push your commits, you’re essentially transferring the changes from your local Git repository to a remote repository. This allows others to see your work, collaborate, or deploy the code from the remote repository
+
+## Example
+
+![git](images/Git-push.png)
