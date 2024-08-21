@@ -272,6 +272,29 @@ Merging branches in Git combines the changes from one branch into another. It’
 ![git](images/Git-Merge.png)
 ![git](images/Merge-main-after.png)
 
+## Handling Conflict
+
+A merge conflict occurs in Git when two branches have made changes to the same part of a file, and Git cannot automatically determine which change to keep. Here's a breakdown of how conflicts arise and how they are handled:
+
+## How Conflicts Arise
+
+* **`Concurrent Changes`** : If two branches make changes to the same line in a file, Git cannot decide which change to keep during a merge.
+
+* **`Overlapping Changes`** : Conflicts also occur if one branch modifies a file and another branch deletes or renames it.
+
+## Example
+
+
+## Clone
+
+The git clone command is used to create a copy of a remote repository on your local machine. 
+
+## Example
+
+![git](images/git-clone-github.png)
+![git](images/git-clone.png)
+
+
 
 
 
