@@ -284,6 +284,26 @@ A merge conflict occurs in Git when two branches have made changes to the same p
 
 ## Example
 
+![git](images/conflict/Group-7241.png)
+![git](images/conflict/3.png)
+![git](images/conflict/Group-7240.png)
+![git](images/conflict/7.png)
+
+
+## Stash and Pop
+
+**`Stashing Changes`**:
+
+When you're in the middle of working on something and need to switch branches or pull in new changes without committing your current work, you can "stash" your changes. This saves your modifications (tracked files, staged changes, and optionally untracked files) and reverts your working directory to the last commit.
+
+**`Popping Stashed Changes`**:
+
+Once you're ready to return to your stashed work, you can "pop" the stash. This restores the saved changes back to your working directory.
+
+## Example
+
+![git](images/stash-pop.png)
+
 
 ## Clone
 
